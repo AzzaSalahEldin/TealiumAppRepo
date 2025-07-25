@@ -1,0 +1,6 @@
+Email,Password,Scenario
+validuser@mail.com,correctpass,success
+invalidemail.com,password123,invalid_email
+validuser@mail.com,wrongpass,incorrect_password
+,,empty_fields
+unregistered@mail.com,password123,non_existent

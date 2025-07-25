@@ -1,0 +1,12 @@
+<suite name="ParallelSuite" parallel="classes" thread-count="5">
+    <listeners>
+        <listener class-name="listeners.TestListener"/>
+    </listeners>
+
+    <test name="All Tests">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.RegistrationTest"/>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,6 @@
+FirstName,LastName,Email,Password,ConfirmPassword,Scenario
+John,Doe,john@mail.com,Password123,Password123,success
+,, ,,,empty
+Jane,Smith,invalidemail,Password123,Password123,invalid_email
+Alice,Brown,alice@mail.com,Password123,Password321,mismatch
+John,Doe,existingemail@mail.com,Password123,Password123,duplicate
